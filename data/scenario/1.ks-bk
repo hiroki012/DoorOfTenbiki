@@ -1,0 +1,35 @@
+[position layer=0 visible=false page=fore]
+[image storage=forest.jpg page=fore layer=base]
+
+[image layer=1 page=fore storage=figure_fighting_pose.png visible=true left=400]
+[wait time=200]
+*start|スタート
+;TODO cmってなに？
+[cm] 
+
+[position layer=message1 visible=true width=250 height=50 left=30 top=380 margint=5 marginl=20 marginr=0]
+[current layer=message1]
+人間A
+
+[position visible=true layer=message0 width=50000 height=195 left=50 top=420 frame=D3D3D3.png margin=40 marginb=20 marginl=60 margin=20]
+;lがクリック待ち、rが改行
+[current layer=message0]
+こんにちは。[l][r]
+クリックすれば[l][r]
+文字が変わるよ。[r]
+改行して文字も流せるね。[r][l]
+[er]
+
+[image layer=0 page=fore storage=figure_aruku.png visible=true left=10]
+[position layer=message1 visible=true width=250 height=50 left=30 top=380 margint=5 marginl=20 marginr=0]
+[current layer=message1]
+人間B
+
+[current layer=message0]
+文字を一掃もできるよ。[l][er]
+以上！[r]
+右クリックで終了からリセットなどを押すか、[r]
+ウィンドウを閉じてね。
+
+
+
